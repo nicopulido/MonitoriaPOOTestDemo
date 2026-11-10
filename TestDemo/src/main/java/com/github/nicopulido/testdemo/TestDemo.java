@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
-package com.github.nicopulido.testdemo;
-
-/**
- *
- * @author nicopulido
- */
-public class TestDemo {
+public class TestDemo{
+    static void mostrarBienvenida() {
+        System.out.println("Bienvenido a la Agenda");
+    }
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        mostrarBienvenida();
+        Agenda agenda = new Agenda();
+        agenda.agregar(new Contacto("Ana", "3001112233"));
+        agenda.agregar(new Contacto("Luis", "3004445566"));
+        agenda.listar();
     }
 }
