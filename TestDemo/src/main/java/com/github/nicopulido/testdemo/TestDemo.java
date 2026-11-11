@@ -3,7 +3,7 @@ package com.github.nicopulido.testdemo;
 
 public class TestDemo{
     static void mostrarBienvenida() {
-        System.out.println("Bienvenido a la Agenda");
+        System.out.println("=== AGENDA DE CONTACTOS ===");
     }
 
     public static void main(String[] args) {
