@@ -3,7 +3,7 @@ package com.github.nicopulido.testdemo;
 
 public class TestDemo{
     static void mostrarBienvenida() {
-        System.out.println("=== AGENDA DE CONTACTOS ===");
+        System.out.println("=== AGENDA DE CONTACTOS (con favoritos)===");
     }
 
     public static void main(String[] args) {
