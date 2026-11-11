@@ -1,3 +1,5 @@
+package com.github.nicopulido.testdemo;
+
 import java.util.ArrayList;
 import java.util.List;
 

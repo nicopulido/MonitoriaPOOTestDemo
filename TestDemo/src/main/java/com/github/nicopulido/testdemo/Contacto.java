@@ -1,3 +1,5 @@
+package com.github.nicopulido.testdemo;
+
 public class Contacto {
     private final String nombre;
     private final String telefono;
