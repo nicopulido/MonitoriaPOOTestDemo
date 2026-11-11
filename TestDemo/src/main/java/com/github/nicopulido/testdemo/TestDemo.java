@@ -1,6 +1,6 @@
 public class TestDemo{
     static void mostrarBienvenida() {
-        System.out.println("Bienvenido a la Agenda");
+        System.out.println("Agenda favoritos");
     }
 
     public static void main(String[] args) {
